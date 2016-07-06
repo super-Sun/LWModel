@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "NSObject+Model.h"
-#import "NSObject+Property.h"
 #import "Friends.h"
 
 @interface ViewController ()
