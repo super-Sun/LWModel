@@ -12,6 +12,6 @@
 @property (nonatomic, copy) NSString *icon;
 @property (nonatomic, copy) NSString *intro;
 @property (nonatomic, copy) NSString *name;
-@property (nonatomic, assign) NSInteger vip1;
-@property (nonatomic, assign) NSInteger vip2;
+@property (nonatomic, assign) NSInteger vip;
+
 @end
