@@ -18,8 +18,7 @@
 		0D59DA781D2CE17E00FAE573 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DA701D2CE17E00FAE573 /* Friend.m */; };
 		0D59DA791D2CE17E00FAE573 /* Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DA721D2CE17E00FAE573 /* Friends.m */; };
 		0D59DA7A1D2CE17E00FAE573 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D59DA731D2CE17E00FAE573 /* friends.plist */; };
-		0D59DA7B1D2CE17E00FAE573 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DA751D2CE17E00FAE573 /* NSObject+Model.m */; };
-		0D59DA7C1D2CE17E00FAE573 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DA771D2CE17E00FAE573 /* NSObject+Property.m */; };
+		0D59DAC41D2CF8DE00FAE573 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D59DAC31D2CF8DE00FAE573 /* NSObject+Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +60,8 @@
 		0D59DA711D2CE17E00FAE573 /* Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friends.h; sourceTree = "<group>"; };
 		0D59DA721D2CE17E00FAE573 /* Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friends.m; sourceTree = "<group>"; };
 		0D59DA731D2CE17E00FAE573 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
-		0D59DA741D2CE17E00FAE573 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
-		0D59DA751D2CE17E00FAE573 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
-		0D59DA761D2CE17E00FAE573 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
-		0D59DA771D2CE17E00FAE573 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		0D59DAC21D2CF8DE00FAE573 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		0D59DAC31D2CF8DE00FAE573 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,15 +112,12 @@
 		0D59DA3B1D2CE0DD00FAE573 /* JSON2Model */ = {
 			isa = PBXGroup;
 			children = (
+				0D59DAC11D2CF8DE00FAE573 /* JSON2Model */,
 				0D59DA731D2CE17E00FAE573 /* friends.plist */,
 				0D59DA6F1D2CE17E00FAE573 /* Friend.h */,
 				0D59DA701D2CE17E00FAE573 /* Friend.m */,
 				0D59DA711D2CE17E00FAE573 /* Friends.h */,
 				0D59DA721D2CE17E00FAE573 /* Friends.m */,
-				0D59DA741D2CE17E00FAE573 /* NSObject+Model.h */,
-				0D59DA751D2CE17E00FAE573 /* NSObject+Model.m */,
-				0D59DA761D2CE17E00FAE573 /* NSObject+Property.h */,
-				0D59DA771D2CE17E00FAE573 /* NSObject+Property.m */,
 				0D59DA3F1D2CE0DD00FAE573 /* AppDelegate.h */,
 				0D59DA401D2CE0DD00FAE573 /* AppDelegate.m */,
 				0D59DA421D2CE0DD00FAE573 /* ViewController.h */,
@@ -161,6 +155,15 @@
 				0D59DA631D2CE0DD00FAE573 /* Info.plist */,
 			);
 			path = JSON2ModelUITests;
+			sourceTree = "<group>";
+		};
+		0D59DAC11D2CF8DE00FAE573 /* JSON2Model */ = {
+			isa = PBXGroup;
+			children = (
+				0D59DAC21D2CF8DE00FAE573 /* NSObject+Model.h */,
+				0D59DAC31D2CF8DE00FAE573 /* NSObject+Model.m */,
+			);
+			path = JSON2Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,9 +299,8 @@
 			files = (
 				0D59DA441D2CE0DD00FAE573 /* ViewController.m in Sources */,
 				0D59DA411D2CE0DD00FAE573 /* AppDelegate.m in Sources */,
-				0D59DA7C1D2CE17E00FAE573 /* NSObject+Property.m in Sources */,
 				0D59DA3E1D2CE0DD00FAE573 /* main.m in Sources */,
-				0D59DA7B1D2CE17E00FAE573 /* NSObject+Model.m in Sources */,
+				0D59DAC41D2CF8DE00FAE573 /* NSObject+Model.m in Sources */,
 				0D59DA791D2CE17E00FAE573 /* Friends.m in Sources */,
 				0D59DA781D2CE17E00FAE573 /* Friend.m in Sources */,
 			);
@@ -526,6 +528,7 @@
 				0D59DA681D2CE0DD00FAE573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D59DA691D2CE0DD00FAE573 /* Build configuration list for PBXNativeTarget "JSON2ModelTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +537,7 @@
 				0D59DA6B1D2CE0DD00FAE573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D59DA6C1D2CE0DD00FAE573 /* Build configuration list for PBXNativeTarget "JSON2ModelUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +546,7 @@
 				0D59DA6E1D2CE0DD00FAE573 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
